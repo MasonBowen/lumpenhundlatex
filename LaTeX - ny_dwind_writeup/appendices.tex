@@ -1,0 +1,31 @@
+\appendix
+%\renewcommand*{\thesection}{\Alph{}}
+
+\section{Land Use Type to Application Mapping}
+\label{appendixa}
+
+Table~\ref{table:landusemap} shows how land use types from the CoreLogics dataset were mapped to different applications. The table also shows what load patterns were mapped to which parcel which was used when determining the overall value under the VDER and NEM frameworks for behind-the-meter wind turbines (see Section~\ref{btm_cons}). These load patterns were based off of the \hl{blah blah data set, cite}. Although ultimately a subjective decision, one application was attempted to be mapped to a land use type.
+
+% better to set longtable with pfgplottable within pfgplotstable parameters
+% labels have to occur after captions in order to refer to table (otherwise it will default to section); 
+% captions however have to be within float environments and labels don't register in the style of pfgplots
+% therefore the only way to get the label 'table:landusemap' to return 'A.1' rather than 'Appendix A' is to put it after an empty caption within the pfgplottableset
+\pgfplotstableset{
+begin table=\begin{longtable},
+end table=\label{table:landusemap}\end{longtable}, 
+}
+
+\centering
+	\setlength{\tabcolsep}{0.5em} % for the horizontal padding
+	\renewcommand{\arraystretch}{1.5}% for the vertical padding
+    		\pgfplotstabletypeset[col sep=semicolon,
+			display columns/0/.style={string type, column name={Land~Use~Type}, column type = p{0.2\linewidth}}, % column type = p{decimalnumber\linewidth} allows you to set the column width for text wrapping
+			display columns/1/.style={string type, column name={Load~Shape}, column type = p{0.2\linewidth}},
+			display columns/2/.style={string type, column name={Eligible~Applications}, column type = p{0.25\linewidth}},
+			display columns/3/.style={string type, column name={Load~Sector}, column type = p{0.2\linewidth}},
+			every head row/.style={before row=\caption{Mapping Between CoreLogics Dataset and Load Shapes and Applications}\\\toprule, after row=\midrule}, % with long tables better to set caption here in before row
+			every even row/.style={before row={\rowcolor[gray]{0.95}}},
+			every last row/.style={after row=\bottomrule},
+		    ]{\landuseappmap}
+
+

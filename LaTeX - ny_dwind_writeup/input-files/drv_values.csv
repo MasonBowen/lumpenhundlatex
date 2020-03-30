@@ -1,0 +1,14 @@
+Utility Territory,DRV Annual Value,DRV Hour Window,DRV Date Window,DRV Value
+ConEd* -,,,,
+~~~~~ $A$,199.4,11:00 - 15:00,June 24 - September 15,0.853596
+~~~~~ $B$,199.4,14:00 - 18:00,June 24 - September 15,0.853596
+~~~~~ $C$,199.4,16:00 - 20:00,June 24 - September 15,0.853596
+~~~~~ $D$,199.4,19:00 - 23:00,June 24 - September 15,0.853596
+ORU,64.78,14:00 - 19:00,June 24 - September 15,0.221849
+CHEG,14.55,14:00 - 19:00,June 24 - September 15,0.0498288
+NGrid,61.44,14:00 - 19:00,June 24 - September 15,0.210411
+RGE,31.92,14:00 - 19:00,June 24 - September 15,0.109315
+NYSEG** -,,,,
+~~~~~ $Summer$,29.67,14:00 - 19:00,June 24 - September 15,0.0887261
+~~~~~ $Winter$,29.67,17:00 - 19:00,January 1 - January 31,0.0887261
+LIPA,109.86,14:00 - 19:00,June 1 -  August 31,0.337512

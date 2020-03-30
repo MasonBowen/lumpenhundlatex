@@ -1,0 +1,183 @@
+land-use-type;crb-model;application;Type
+agricultural (nec);warehouse;BTM, FOM, Utility;Agricultural
+agricultural land;warehouse;BTM, FOM, Utility;Agricultural
+aircraft facility;high-energy;BTM, FOM;Industrial
+airport;high-energy;BTM, FOM;Industrial
+amusement arcade;stand-alone-retail;BTM;Commercial
+amusement park;large-office;BTM, FOM;Commercial
+animal farm;warehouse;BTM, FOM, Utility;Agricultural
+animal hospital, vet;hospital;BTM;Commercial
+apartment;midrise-apartment;BTM;Residential
+apartment, hotel;large-hotel;BTM, FOM;Commercial
+auditorium;stand-alone-retail;BTM;Commercial
+auto repair;stand-alone-retail;BTM;Commercial
+auto sales;stand-alone-retail;BTM;Commercial
+bar;full-service-restaurant;BTM;Commercial
+bowling alley;stand-alone-retail;BTM;Commercial
+brewery;full-service-restaurant;BTM;Commercial
+cabin;small-hotel;BTM;Residential
+carwash;stand-alone-retail;BTM;Commercial
+cemetery;low-energy;BTM, FOM;Residential
+charitable organization;medium-office;BTM;Commercial
+chemical;warehouse;BTM;Industrial
+club;medium-office;BTM;Commercial
+commercial (nec);warehouse;BTM, FOM;Commercial
+commercial acreage;warehouse;BTM, FOM;Commercial
+commercial building;warehouse;BTM, FOM;Commercial
+commercial condominium;small-hotel;BTM;Residential
+commercial lot;medium-office;BTM, FOM, Utility;Commercial
+common area;low-energy;BTM, FOM, Utility;Commercial
+common land;low-energy;BTM, FOM, Utility;Commercial
+communication facility;medium-office;BTM, FOM;Commercial
+community center;medium-office;BTM;Commercial
+condominium;midrise-apartment;BTM;Residential
+convalescent hospital;hospital;BTM, FOM;Commercial
+converted residence;small-hotel;BTM;Residential
+cooperative;medium-office;BTM, FOM;Commercial
+correctional facility;large-office;BTM, FOM;Commercial
+country club;stand-alone-retail;BTM, FOM;Commercial
+county property;low-energy;BTM, FOM, Utility;Commercial
+dairy farm;warehouse;BTM, FOM, Utility;Agricultural
+department store;stand-alone-retail;BTM;Commercial
+drive in theater;stand-alone-retail;BTM, FOM;Commercial
+duplex;small-hotel;BTM;Residential
+easement;low-energy;BTM, FOM;Commercial
+educational service;secondary-school;BTM, FOM;Commercial
+electrical facility;medium-office;BTM, FOM;Commercial
+embassies, chanceries;small-hotel;BTM;Commercial
+farms;warehouse;BTM, FOM, Utility;Agricultural
+fast food franchise;quick-service-restaurant;BTM;Commercial
+federal building;large-office;BTM;Commercial
+federal property;low-energy;BTM, FOM, Utility;Commercial
+field \& seed;low-energy;BTM, FOM, Utility;Commercial
+financial building;large-office;BTM;Commercial
+fisheries;warehouse;BTM, FOM, Utility;Agricultural
+food processing;high-energy;BTM, FOM;Commercial
+food stores;supermarket;BTM;Commercial
+forest;low-energy;BTM, FOM, Utility;Agricultural
+frat, sorority house;small-hotel;BTM;Party
+funeral home;small-office;BTM;Commercial
+garage;stand-alone-retail;BTM;Commercial
+gas production;high-energy;BTM, FOM;Commercial
+golf course;low-energy;BTM, FOM;Commercial
+greenhouse;medium-office;BTM, FOM;Commercial
+group quarters;small-hotel;BTM;Residential
+gymnasium;secondary-school;BTM;Commercial
+health club;small-office;BTM;Commercial
+heavy industrial;high-energy;BTM, FOM;Industrial
+hospital;hospital;BTM, FOM;Commercial
+hotel;large-hotel;BTM;Commercial
+industrial (nec);high-energy;BTM, FOM;Industrial
+industrial acreage;warehouse;BTM, FOM, Utility;Industrial
+industrial lot;warehouse;BTM, FOM, Utility;Industrial
+industrial plant;high-energy;BTM, FOM;Industrial
+kennel;small-office;BTM;Commercial
+lake, river, beach;low-energy;BTM, FOM, Utility;Commercial
+laundromat;stand-alone-retail;BTM;Commercial
+library, museum;secondary-school;BTM;Commercial
+light industrial;high-energy;BTM, FOM;Industrial
+livestock;warehouse;BTM, FOM, Utility;Agricultural
+loft building;small-office;BTM;Commercial
+lumber mill;high-energy;BTM, FOM, Utility;Industrial
+lumber yard;warehouse;BTM, FOM, Utility;Industrial
+manufactured home;small-hotel;BTM;Residential
+marina facility;medium-office;BTM, FOM;Commercial
+marine facility;low-energy;BTM, FOM;Commercial
+marshland;low-energy;BTM, FOM, Utility;Agricultural
+medical building;hospital;BTM, FOM;Commercial
+military building;large-office;BTM, FOM;Commercial
+mine, quarry;warehouse;BTM, FOM, Utility;Industrial
+mineral processing;warehouse;BTM, FOM;Industrial
+mini warehouse;warehouse;BTM;Commercial
+misc building;medium-office;BTM;Commercial
+misc commercial services;medium-office;BTM;Commercial
+miscellaneous;medium-office;BTM;Commercial
+mobile home;small-hotel;BTM;Residential
+mobile home park;small-hotel;BTM;Residential
+motel;small-hotel;BTM;Residential
+multi family dwelling;small-hotel;BTM;Residential
+multiple uses;medium-office;BTM;Commercial
+municipal property;low-energy;BTM, FOM;Commercial
+native american property;low-energy;BTM, FOM, Utility;Commercial
+nightclub;stand-alone-retail;BTM;Commercial
+nursery school;primary-school;BTM;Commercial
+nursery, horticulture;stand-alone-retail;BTM;Commercial
+nursing home;small-hotel;BTM;Residential
+office \& residential;medium-office;BTM;Commercial
+office building;medium-office;BTM;Commercial
+office condo;medium-office;BTM;Commercial
+orchard;warehouse;BTM, FOM, Utility;Agricultural
+orphanage;secondary-school;BTM;Commercial
+paper \& allied industry;high-energy;BTM, FOM, Utility;Industrial
+park;low-energy;BTM, FOM;Commercial
+parking lot;low-energy;BTM, FOM;Commercial
+parking structure;low-energy;BTM, FOM;Commercial
+petroleum;high-energy;BTM, FOM, Utility;Industrial
+police, fire, civil defense;medium-office;BTM, FOM;Commercial
+poultry ranch;warehouse;BTM, FOM, Utility;Agricultural
+private school;secondary-school;BTM;Commercial
+public (nec);low-energy;BTM, FOM;Commercial
+public school;secondary-school;BTM;Commercial
+public service;medium-office;BTM, FOM;Commercial
+quadruplex;small-hotel;BTM;Residential
+r\&d facility;large-office;BTM, FOM;Commercial
+race track;large-office;BTM, FOM;Commercial
+radio facility;small-office;BTM;Commercial
+railroad facility;warehouse;BTM, FOM, Utility;Industrial
+recreational (nec);warehouse;BTM, FOM, Utility;Industrial
+religious;small-office;BTM;Commercial
+residence hall, dormitories;small-hotel;BTM;Residential
+residential (nec);small-hotel;BTM;Residential
+residential acreage;small-hotel;BTM;Residential
+residential lot;small-hotel;BTM;Residential
+resort hotel;large-hotel;BTM, FOM;Commercial
+restaurant building;full-service-restaurant;BTM;Commercial
+restaurant drive in;quick-service-restaurant;BTM;Commercial
+retail trade;strip-mall;BTM;Commercial
+rural homesite;small-hotel;BTM;Residential
+salvage imprv;low-energy;BTM, FOM;Commercial
+school;secondary-school;BTM;Commercial
+service station;stand-alone-retail;BTM;Commercial
+service station, market;stand-alone-retail;BTM;Commercial
+sfr;small-hotel;BTM;Residential
+shopping center;strip-mall;BTM;Commercial
+skating rink;stand-alone-retail;BTM;Commercial
+stable;low-energy;BTM, FOM;Agricultural
+stadium;high-energy;BTM, FOM;Commercial
+state property;low-energy;BTM, FOM, Utility;Commercial
+storage;warehouse;BTM, FOM;Commercial
+storage tanks;warehouse;BTM, FOM;Commercial
+store building;stand-alone-retail;BTM;Commercial
+stores \& offices;stand-alone-retail;BTM;Commercial
+stores \& residential;small-hotel;BTM;Residential
+strip commercial center;strip-mall;BTM, FOM;Commercial
+supermarket;supermarket;BTM;Commercial
+swimming pool;stand-alone-retail;BTM;Commercial
+tavern;full-service-restaurant;BTM;Commercial
+tax exempt;low-energy;BTM, FOM;Commercial
+technological industry;high-energy;BTM, FOM, Utility;Industrial
+telephone facility;medium-office;BTM, FOM;Commercial
+tennis club;medium-office;BTM, FOM;Commercial
+theater;stand-alone-retail;BTM;Commercial
+tourist attraction, exhibits;low-energy;BTM;Commercial
+townhouse, rowhouse;small-hotel;BTM;Residential
+transient lodging;small-hotel;BTM;Residential
+transport (nec);medium-office;BTM, FOM;Commercial
+transport facility;medium-office;BTM, FOM;Commercial
+triplex;small-hotel;BTM;Residential
+truck crops;medium-office;BTM, FOM;Commercial
+truck terminal;medium-office;BTM, FOM;Commercial
+tv facility;medium-office;BTM, FOM;Commercial
+university;secondary-school;BTM, FOM;Commercial
+us postal service;small-office;BTM;Commercial
+utilities;medium-office;BTM, FOM;Commercial
+vacant land (nec);low-energy;BTM, FOM;Commercial
+vacant lmtd, no dev potential;low-energy;BTM, FOM;Commercial
+vineyard;low-energy;BTM, FOM;Agricultural
+vocational, trade school;secondary-school;BTM, FOM;Commercial
+warehouse;warehouse;BTM, FOM;Commercial
+waste disposal;high-energy;BTM, FOM;Commercial
+well, gas, oil;warehouse;BTM, FOM, Utility;Industrial
+well, water;low-energy;BTM, FOM;Commercial
+wholesale;warehouse;BTM, FOM;Commercial
+winery;low-energy;BTM, FOM;Agricultural

@@ -1,0 +1,268 @@
+\begin{thebibliography}{27}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Ackermann et~al.(2001)Ackermann, Andersson and
+  Söder}]{ackermann_distributed_2001}
+\bibinfo{author}{Ackermann, T.}, \bibinfo{author}{Andersson, G.},
+  \bibinfo{author}{Söder, L.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Distributed generation: a definition}.
+\newblock \bibinfo{journal}{Electric Power Systems Research}
+  \bibinfo{volume}{57}, \bibinfo{pages}{195--204}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S0378779601001018},
+  \DOIprefix\doi{10.1016/S0378-7796(01)00101-8}.
+%Type = Techreport
+\bibitem[{Allen(2014)}]{allen_voltage_2014}
+\bibinfo{author}{Allen, A.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Voltage {Impacts} of {Utility}-{Scale} {Distributed}
+  {Wind}}.
+\newblock \bibinfo{type}{Technical {Report}}
+  \bibinfo{number}{NREL/TP-5D00-61825}. NREL. \bibinfo{address}{Golden, CO}.
+\newblock \URLprefix \url{https://www.nrel.gov/docs/fy14osti/61825.pdf}.
+%Type = Techreport
+\bibitem[{Association and {Wood
+  Mackenzie}(2019)}]{solar_energy_industries_association_us_2019}
+\bibinfo{author}{Association, S.E.I.}, \bibinfo{author}{{Wood Mackenzie}},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{U.{S}. {Solar} {Market} {Insight}}.
+\newblock \bibinfo{type}{Annual {Market} {Report} - {Year} in {Review}}. SEIA
+  \& GTM.
+\newblock \URLprefix
+  \url{https://www.woodmac.com/research/products/power-and-renewables/us-solar-market-insight/}.
+%Type = Techreport
+\bibitem[{{AWST}(2012)}]{awst_3_2012}
+\bibinfo{author}{{AWST}}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{3\% {Gross} {Capacity} {Factor} {TMY} {Profile} at 20
+  km {Locations}}.
+\newblock \bibinfo{type}{Technical Report}. AWS Truepower, LLC.
+%Type = Techreport
+\bibitem[{{Consolidated Edison}(2019)}]{consolidated_edison_con_2019}
+\bibinfo{author}{{Consolidated Edison}}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Con {Edison} {Demand} {Response} {Programs}:
+  {Commercial} {System} {Relief} {Program}}.
+\newblock \bibinfo{type}{Utility {Program}}. ConEd. \bibinfo{address}{New York,
+  NY}.
+\newblock \URLprefix
+  \url{https://www.coned.com/-/media/files/coned/documents/save-energy-money/rebates-incentives-tax-credits/smart-usage-rewards/networks-and-tiers.pdf}.
+%Type = Techreport
+\bibitem[{Denholm et~al.(2014)Denholm, Margolis, Palmintier, Barrows, Ibanez,
+  Bird and Zuboy}]{denholm_methods_2014}
+\bibinfo{author}{Denholm, P.}, \bibinfo{author}{Margolis, R.},
+  \bibinfo{author}{Palmintier, B.}, \bibinfo{author}{Barrows, C.},
+  \bibinfo{author}{Ibanez, E.}, \bibinfo{author}{Bird, L.},
+  \bibinfo{author}{Zuboy, J.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Methods for {Analyzing} the {Benefits} and {Costs} of
+  {Distributed} {Photovoltaic} {Generation} to the {U}.{S}. {Electric}
+  {Utility} {System}}.
+\newblock \bibinfo{type}{Technical {Report}}
+  \bibinfo{number}{NREL/TP-6A20-62447}. NREL. \bibinfo{address}{Golden, CO}.
+\newblock \URLprefix \url{https://www.nrel.gov/docs/fy14osti/62447.pdf}.
+%Type = Misc
+\bibitem[{{Government of New York}(2020)}]{government_of_new_york_nys_2020}
+\bibinfo{author}{{Government of New York}}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{{NYS} {Electric} {Utility} {Service} {Territories}}.
+\newblock \URLprefix
+  \url{https://data.ny.gov/Energy-Environment/NYS-Electric-Utility-Service-Territories/q5m9-rahr}.
+%Type = Article
+\bibitem[{Jin et~al.(2013)Jin, Yang, Danielson, Homer, Fry and
+  Xian}]{jin_comprehensive_2013}
+\bibinfo{author}{Jin, S.}, \bibinfo{author}{Yang, L.},
+  \bibinfo{author}{Danielson, P.}, \bibinfo{author}{Homer, C.},
+  \bibinfo{author}{Fry, J.}, \bibinfo{author}{Xian, G.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{A comprehensive change detection method for updating
+  the {National} {Land} {Cover} {Database} to circa 2011}.
+\newblock \bibinfo{journal}{Remote Sensing of Environment}
+  \bibinfo{volume}{132}, \bibinfo{pages}{159--175}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S0034425713000242},
+  \DOIprefix\doi{10.1016/j.rse.2013.01.012}.
+%Type = Book
+\bibitem[{Kellndorfer et~al.(2013)Kellndorfer, Walker, Kirsch, Fiske, Bishop,
+  LaPoint, Hoppus and Westfall}]{kellndorfer_nacp_2013}
+\bibinfo{author}{Kellndorfer, J.}, \bibinfo{author}{Walker, W.},
+  \bibinfo{author}{Kirsch, K.}, \bibinfo{author}{Fiske, G.},
+  \bibinfo{author}{Bishop, J.}, \bibinfo{author}{LaPoint, L.},
+  \bibinfo{author}{Hoppus, M.}, \bibinfo{author}{Westfall, J.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{NACP} {Aboveground} {Biomass} and {Carbon}
+  {Baseline} {Data}, {V}.2 ({NBCD} 2000), {U}.{S}.{A}., 2000}.
+\newblock \bibinfo{publisher}{ORNL Distributed Active Archive Center}.
+\newblock \URLprefix \url{http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1161},
+  \DOIprefix\doi{10.3334/ORNLDAAC/1161}.
+%Type = Techreport
+\bibitem[{Lee et~al.(2019)Lee, Flores-Espino, Oliveira, Roberts, Bowen and
+  Katz}]{lee_exploring_2019}
+\bibinfo{author}{Lee, N.}, \bibinfo{author}{Flores-Espino, F.},
+  \bibinfo{author}{Oliveira, R.}, \bibinfo{author}{Roberts, B.},
+  \bibinfo{author}{Bowen, T.}, \bibinfo{author}{Katz, J.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Exploring {Renewable} {Energy} {Opportunities} in
+  {Select} {Southeast} {Asian} {Countries}: {A} {Geospatial} {Analysis} of the
+  {Levelized} {Cost} of {Energy} of {Utility}-{Scale} {Wind} and {Solar}
+  {Photovoltaics}}.
+\newblock \bibinfo{type}{Technical {Report}}. NREL. \bibinfo{address}{Golden,
+  CO}.
+\newblock \URLprefix \url{https://www.nrel.gov/docs/fy19osti/71814.pdf}.
+%Type = Techreport
+\bibitem[{Lopez et~al.(2012)Lopez, Roberts, Heimiller, Blair and
+  Porro}]{lopez_us_2012}
+\bibinfo{author}{Lopez, A.}, \bibinfo{author}{Roberts, B.},
+  \bibinfo{author}{Heimiller, D.}, \bibinfo{author}{Blair, N.},
+  \bibinfo{author}{Porro, G.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{U.{S}. {Renewable} {Energy} {Technical} {Potentials}:
+  {A} {GIS}-{Based} {Analysis}}.
+\newblock \bibinfo{type}{Technical {Report}}
+  \bibinfo{number}{NREL/TP-6A20-51946}. NREL. \bibinfo{address}{Golden, CO}.
+\newblock \URLprefix \url{https://www.nrel.gov/docs/fy12osti/51946.pdf}.
+%Type = Techreport
+\bibitem[{Martinez-Anido and Hodge(2014)}]{martinez-anido_impact_2014}
+\bibinfo{author}{Martinez-Anido, C.B.}, \bibinfo{author}{Hodge, B.M.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Impact of {Utility}-{Scale} {Distributed} {Wind} on
+  {Transmission}-{Level} {System} {Operations}}.
+\newblock \bibinfo{type}{Technical {Report}}
+  \bibinfo{number}{NREL/TP-5D00-61824}. NREL. \bibinfo{address}{Golden, CO}.
+\newblock \URLprefix \url{https://www.nrel.gov/docs/fy14osti/61824.pdf}.
+%Type = Techreport
+\bibitem[{McCabe et~al.(2018)McCabe, Sigrin, Lantz and
+  Mooney}]{mccabe_assessment_2018}
+\bibinfo{author}{McCabe, K.}, \bibinfo{author}{Sigrin, B.},
+  \bibinfo{author}{Lantz, E.}, \bibinfo{author}{Mooney, M.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Assessment of the {Economic} {Potential} of
+  {Distributed} {Wind} in {Colorado}, {Minnesota}, and {New} {York}}.
+\newblock \bibinfo{type}{Technical {Report}}
+  \bibinfo{number}{NREL/TP-6A20-70547}. NREL. \bibinfo{address}{Golden, CO}.
+\newblock \URLprefix \url{https://www.nrel.gov/docs/fy18osti/70547.pdf}.
+%Type = Misc
+\bibitem[{{New York Power
+  Authority}(2014)}]{new_york_power_authority_nyiso_2014}
+\bibinfo{author}{{New York Power Authority}}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{NYISO} load zones and utility territory {NPL}}.
+\newblock \URLprefix
+  \url{https://www.arcgis.com/home/item.html?id=6fd1de467b134f47a607721f23a69f0c}.
+%Type = Misc
+\bibitem[{{NYISO}(2020a)}]{nyiso_monthly_2020}
+\bibinfo{author}{{NYISO}}, \bibinfo{year}{2020}a.
+\newblock \bibinfo{title}{Monthly {Auction} {Summary}}.
+\newblock \URLprefix
+  \url{http://icap.nyiso.com/ucap/public/auc_view_monthly_selection.do}.
+%Type = Misc
+\bibitem[{{NYISO}(2020b)}]{nyiso_pricing_2020}
+\bibinfo{author}{{NYISO}}, \bibinfo{year}{2020}b.
+\newblock \bibinfo{title}{Pricing {Data} - {Day}-{Ahead} {Market} {LBMP}}.
+\newblock \URLprefix
+  \url{https://www.nyiso.com/energy-market-operational-data}.
+%Type = Techreport
+\bibitem[{{NYPSC}(2014)}]{nypsc_reforming_2014}
+\bibinfo{author}{{NYPSC}}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Reforming the {Energy} {Vision}}.
+\newblock \bibinfo{type}{Staff {Report} and {Proposal}} \bibinfo{number}{Case
+  14-M-0101}. New York Public Service Commission. \bibinfo{address}{Albany,
+  NY}.
+\newblock \URLprefix
+  \url{http://www3.dps.ny.gov/W/PSCWeb.nsf/96f0fec0b45a3c6485257688006a701a/26be8a93967e604785257cc40066b91a/%24FILE/ATTK0J3L.pdf/Reforming%20The%20Energy%20Vision%20(REV)%20REPORT%204.25.%2014.pdf}.
+%Type = Misc
+\bibitem[{{NYPSC}(2017)}]{nypsc_order_2017}
+\bibinfo{author}{{NYPSC}}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Order on {Net} {Energy} {Metering} {Transition},
+  {Phase} {One} of {Value} of {Distributed} {Energy} {Resources}, and {Related}
+  {Matters}}.
+\newblock \URLprefix
+  \url{http://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B5B69628E-2928-44A9-B83E-65CEA7326428%7D}.
+%Type = Misc
+\bibitem[{{NYPSC}(2019)}]{nypsc_matter_2019}
+\bibinfo{author}{{NYPSC}}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{In the {Matter} of the {Value} of {Distributed}
+  {Energy} {Resources}}.
+\newblock \URLprefix
+  \url{https://www.nyserda.ny.gov/All-Programs/Programs/NY-Sun/Contractors/Value-of-Distributed-Energy-Resources}.
+%Type = Techreport
+\bibitem[{{NYSERDA}(2019a)}]{nyserda_public_2019}
+\bibinfo{author}{{NYSERDA}}, \bibinfo{year}{2019}a.
+\newblock \bibinfo{title}{Public {Authority} {Law} {Report}}.
+\newblock \bibinfo{type}{Annual {Report}}. NYSERDA.
+\newblock \URLprefix
+  \url{https://www.nyserda.ny.gov/-/media/Files/Publications/Annual-Reports-and-Financial-Statements/2017-june-nyserda-semi-annual-report.pdf}.
+%Type = Misc
+\bibitem[{{NYSERDA}(2019b)}]{nyserda_solar_2019}
+\bibinfo{author}{{NYSERDA}}, \bibinfo{year}{2019}b.
+\newblock \bibinfo{title}{Solar {Value} {Stack} {Calculator}}.
+\newblock \URLprefix
+  \url{https://www.nyserda.ny.gov/All-Programs/Programs/NY-Sun/Contractors/Value-of-Distributed-Energy-Resources/Solar-Value-Stack-Calculator}.
+%Type = Techreport
+\bibitem[{Orrell et~al.(2019)Orrell, Preziuso, Foster, Morris and
+  Homer}]{orrell_2018_2019}
+\bibinfo{author}{Orrell, A.}, \bibinfo{author}{Preziuso, D.},
+  \bibinfo{author}{Foster, N.}, \bibinfo{author}{Morris, S.},
+  \bibinfo{author}{Homer, J.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{2018 {Distributed} {Wind} {Market} {Report}}.
+\newblock \bibinfo{type}{Technical Report}. DOE EERE, PNNL.
+\newblock \URLprefix
+  \url{https://www.energy.gov/sites/prod/files/2019/08/f65/2018%20Distributed%20Wind%20Market%20Report.pdf}.
+%Type = Techreport
+\bibitem[{Proudlove et~al.(2020)Proudlove, Lips and
+  Sarkisian}]{proudlove_50_2020}
+\bibinfo{author}{Proudlove, A.}, \bibinfo{author}{Lips, B.},
+  \bibinfo{author}{Sarkisian, D.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{50 {States} of {Solar} - {Q4} 2019 {Quarterly}
+  {Report} \& 2019 {Annual} {Review}}.
+\newblock \bibinfo{type}{Technical Report}. NC Clean Energy Technology Center.
+  \bibinfo{address}{North Carolina}.
+\newblock \URLprefix
+  \url{https://nrellibrary.nrel.gov/store/NCSU/2019/NCSU_50StateofSolar_Q42019.pdf}.
+%Type = Techreport
+\bibitem[{Ramdas et~al.(2019)Ramdas, McCabe, Das and
+  Sigrin}]{ramdas_california_2019}
+\bibinfo{author}{Ramdas, A.}, \bibinfo{author}{McCabe, K.},
+  \bibinfo{author}{Das, P.}, \bibinfo{author}{Sigrin, B.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{California {Time}-of-{Use} ({TOU}) {Transition}:
+  {Effects} on {Distributed} {Wind} and {Solar} {Economic} {Potential}}.
+\newblock \bibinfo{type}{Technical {Report}}
+  \bibinfo{number}{NREL/TP-6A20-73147}. NREL. \bibinfo{address}{Golden, CO}.
+\newblock \URLprefix \url{https://www.nrel.gov/docs/fy19osti/73147.pdf}.
+%Type = Techreport
+\bibitem[{Sigrin et~al.(2016)Sigrin, Gleason, Preus, Baring-Gould and
+  Margolis}]{sigrin_distributed_2016}
+\bibinfo{author}{Sigrin, B.}, \bibinfo{author}{Gleason, M.},
+  \bibinfo{author}{Preus, R.}, \bibinfo{author}{Baring-Gould, I.},
+  \bibinfo{author}{Margolis, R.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Distributed {Generation} {Market} {Demand} {Model}
+  ({dGen}): {Documentation}}.
+\newblock \bibinfo{type}{Technical {Report}}
+  \bibinfo{number}{NREL/TP-6A20-65231}. NREL. \bibinfo{address}{Golden, CO}.
+\newblock \URLprefix \url{https://www.nrel.gov/docs/fy16osti/65231.pdf}.
+%Type = Techreport
+\bibitem[{Wiser and Bolinger(2019)}]{wiser_2018_2019}
+\bibinfo{author}{Wiser, R.}, \bibinfo{author}{Bolinger, M.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{2018 {Wind} {Market} {Report}}.
+\newblock \bibinfo{type}{Annual {Report}} \bibinfo{number}{DOE/GO-102019-5191}.
+  DOE. \bibinfo{address}{Washington, DC}.
+\newblock \URLprefix
+  \url{https://www.energy.gov/sites/prod/files/2019/08/f65/2018%20Wind%20Technologies%20Market%20Report%20FINAL.pdf}.
+%Type = Techreport
+\bibitem[{Zinaman et~al.(2017)Zinaman, Aznar, Linvill, Darghouth, Bianco and
+  Dubbeling}]{zinaman_grid-connected_2017}
+\bibinfo{author}{Zinaman, O.R.}, \bibinfo{author}{Aznar, A.},
+  \bibinfo{author}{Linvill, C.}, \bibinfo{author}{Darghouth, N.},
+  \bibinfo{author}{Bianco, E.}, \bibinfo{author}{Dubbeling, T.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Grid-connected {Distributed} {Generation}:
+  {Compensation} {Mechanism} {Basics}}.
+\newblock \bibinfo{type}{Brochure} \bibinfo{number}{NREL/BR-6A20-68469}. NREL.
+\newblock \URLprefix \url{https://www.nrel.gov/docs/fy18osti/68469.pdf}.
+
+\end{thebibliography}

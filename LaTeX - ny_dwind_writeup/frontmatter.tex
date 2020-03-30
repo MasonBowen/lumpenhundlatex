@@ -1,0 +1,64 @@
+% This is for the front matter of the article, to be read in via 'include'
+
+\begin{frontmatter}
+
+% Title, authors and addresses
+\title{Analysis of the Value of Front-of-the-Meter Distributed Wind in New York\tnoteref{label1}}
+
+\author[]{Thomas Bowen\fnref{label2}}
+	 \ead{thomas.bowen@nrel.gov}
+	 \ead[url]{https://www.nrel.gov/research/thomas-bowen.html}
+\author[]{Kevin McCabe\fnref{label2}}
+	 \ead{kevin.mccabe@nrel.gov}
+	 \ead[url]{https://www.nrel.gov/research/kevin-mccabe.html}
+\author[]{Sam Koebrich\fnref{label2}}
+	 \ead{sam.koebrich@nrel.gov}
+	 %\ead[url]{sam website??}
+\author[]{Ben Sigrin\fnref{label3}}
+	 \ead{benjamin.sigrin@nrel.gov}
+	 \ead[url]{https://www.nrel.gov/research/ben-sigrin.html}
+
+\address{National Renewable Energy Laboratory, 15013 Denver West Parkway, Golden, CO 80401}
+
+% Footnotes
+\tnotetext[label1]{Working Title}
+\fntext[label2]{\nrel{}} 
+\fntext[label3]{\textsc{herr pindropper}}
+
+% Abstract
+\begin{abstract}
+This work explores the value of front-of-the-meter (FOM) distributed wind in the context of the state of New York. In particular the analysis looks at the value of FOM distributed wind relative to behind-the-meter (BTM) wind and utility-scale wind. The analysis uses the New York Public Service Commision's (NYPSC) Value of Distributed Energy Resource (VDER) framework in combination with CoreLogic's parcel-level dataset to determine the value of exports from distributed wind energy throughout the state of New York in high geospatial and temoporal resolution.
+\end{abstract}
+
+% Key words
+\begin{keyword}
+distributed wind \sep front-of-the-meter \sep behind-the-meter \sep New York \sep VDER \sep Value of Distributed Energy Resource \sep GIS \sep slow trains \sep Alabama \sep pins \sep pin-dropping \sep Bluth \sep banana stand
+\end{keyword}
+
+\end{frontmatter}
+
+\tableofcontents
+
+\newpageafter{abstract} % start new page
+\clearpage % can't remember, maybe important ...
+
+
+% ----------------- Notes --------------
+% use the tnoteref command within \title for footnotes;
+% use the tnotetext command for the associated footnote;
+% use the fnref command within \author or \address for footnotes;
+% use the fntext command for the associated footnote;
+% use the corref command within \author for corresponding author footnotes;
+% use the cortext command for the associated footnote;
+% use the ead command for the email address,
+% and the form \ead[url] for the home page:
+
+% use optional labels to link authors explicitly to addresses:
+% \author[label1,label2]{<author name>}
+% \address[label1]{<address>}
+% \address[label2]{<address>}
+
+% keywords in the form: keyword \sep keyword
+
+% MSC in the form: \MSC code \sep code
+% or \MSC[2008] code \sep code (2000 is the default)

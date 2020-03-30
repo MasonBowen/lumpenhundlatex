@@ -1,0 +1,57 @@
+%% Based on the file `elsarticle-template-1a-num.tex',
+%% Created by Thomas Bowen on 01/09/2020
+%% Created for the Distributed Wind FOM Study for New York
+
+% -----------------------------------------------------------------------------------------------------------------------------------------
+% --------------------------------------------- General Notes to Internal Team ----------------------------------------------------
+% -----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+% -----------------------------------------------------------------------------------------------------------------------------------------
+% ------------------------------ Preamble ----------------------------------------------
+% -----------------------------------------------------------------------------------------------------------------------------------------
+
+\documentclass[preprint, 12pt, 3p, sort&compress]{elsarticle} % can add 'twocolumn' option later
+
+\input{settings_options_parameters} % contains all of the settings/options that I don't think we'll need to change very often
+
+% -------------------------------------------------------------------------------------------------
+% ------------------------------ Begin Document ----------------------------------------------
+% -------------------------------------------------------------------------------------------------
+
+\begin{document}
+
+%\hidefigurestrue % Remove conditional figures from document
+\hidefiguresfalse % Keep conditional figures in document (default)
+
+%\hidetablestrue % Remove conditional tables from document
+\hidetablesfalse % Keep conditional tables in document (default)
+
+% --------------------------- Front Matter ---------------------------
+\include{frontmatter}
+
+% --------------------------- General Notes ---------------------------
+\include{notestoself}
+
+% --------------------------- Introduction ---------------------------
+\include{introduction}
+
+% --------------------------- Methodology - Siting, Sizing, Generation, Etc. ---------------------------
+\include{methodology_nonvalue}
+
+% --------------------------- Methodology - Valuation ---------------------------
+\include{methodology_value}
+
+% --------------------------- Bibliography ---------------------------
+\clearpage
+\bibliography{dGen_Wind}
+
+% --------------------------- Appendices ---------------------------
+\clearpage
+\include{appendices}
+
+\end{document}
+
+

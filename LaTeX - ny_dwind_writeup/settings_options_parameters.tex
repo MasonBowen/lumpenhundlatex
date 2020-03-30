@@ -1,0 +1,154 @@
+% This holds all the packages and other such things that should not change all that often
+
+% ------------------------------------------------------------ /
+% Packages
+% ------------------------------------------------------------ /
+
+\usepackage{graphics, graphicx} % for working with images, including establishing a base path to images
+\usepackage{makecell} % text wrapping column names
+\usepackage{float} % helps with captions, establishing float environments, etc.
+\usepackage{subcaption} % helps handling subcpations (as well as with multiple side by side images
+
+\usepackage{amssymb, amsmath, tikz} % mathematical symbols, other symbols, math environ
+
+\usepackage{multirow, tabularx} % helps with tables
+\usepackage{pgfplotstable} % for reading in csv's
+\usepackage{pgfplots} % for plotting within latex
+\usepackage{longtable} % for displaying tables
+\usepackage{booktabs} % for displaying tables
+\usepackage{siunitx} % for using certain 'types' with tables (helps with strings in data csvs)
+\usepackage{longtable} % useful for displaying tables that span multiple pages (appendices)
+
+\usepackage{color,soul, xcolor, lipsum, colortbl} % for coloring text and highlighting and dummy text
+
+\usepackage{adjustbox, environ} % for supressing images and tables for faster runs
+
+\usepackage{url} % for url handling (and line-wrapping with url's
+\usepackage[bookmarksopen=true]{hyperref} % causes package class need to update miktex a la 'https://tex.stackexchange.com/questions/515598/package-ifluatex-error-name-clash-ifluatex-is-already-defined/515760'
+
+\usepackage{bookmark} % provides pdf bookmarks in final document
+
+\usepackage{enumitem} % handles bullets, items, lists, etc.
+
+% ------------------------------------------------------------ /
+% Article options
+% ------------------------------------------------------------ /
+
+\journal{DOE Wind Technology Office}
+
+\graphicspath{{./images/}} %tells latex where graphics are
+
+
+% ------------------------------------------------------------ /
+% text filler commands (lazy)
+% ------------------------------------------------------------ /
+\newcommand{\nrel}{National Renewable Energy Laboratory}
+\newcommand{\aev}{Avoided Energy Value}
+\newcommand{\aciv}{Avoided Capacity Investment Value}
+\newcommand{\drv}{Demand Reduction Value}
+\newcommand{\lsrv}{Locational System Relief Value}
+\newcommand{\atdlv}{Avoided Transmission and Distribution Losses Value}
+
+
+% ------------------------------------------------------------ /
+% Citations and bibtex options
+% ------------------------------------------------------------ /
+
+\setcitestyle{numbers} % styles for citations originally 'numbers'
+
+\bibliographystyle{elsarticle-harv} % style of citations, originally 'elsarticle-harv'
+
+\newcounter{biburllcpenalty} % helps set up url text wrapping for bibliography
+\newcounter{biburlucpenalty}
+\setcounter{biburllcpenalty}{6000}
+\setcounter{biburlucpenalty}{7000}
+
+\setlength{\bibsep}{18pt} % sets distance between references in bibliography
+
+\renewcommand*{\bibfont}{\raggedright} % sets text orientation in bibliography
+
+
+% ------------------------------------------------------------ /
+% pgfplotstable options
+% ------------------------------------------------------------ /
+
+\pgfplotsset{compat=1.16} % gets rid of warning message/ensures ompatability
+\pgfplotstableset{fixed zerofill,precision=2} % global base table options
+
+\newcolumntype{C}{>{\centering\arraybackslash}X} % centered version of "X" column type
+\newcommand\mc[1]{\multicolumn{2}{@{}C@{}}{#1}}  % shortcut macro
+
+% Tables to be read in from csv's
+\pgfplotstableread[col sep=comma]{./input-files/quantile_LBMP_data.csv}\quantilelbmpdata % DAM data
+\pgfplotstableread[col sep=comma]{./input-files/ICAP_values.csv}\icapdata % Capacity market data
+\pgfplotstableread[col sep=comma]{./input-files/drv_values.csv}\drvvals % DRV basic info
+\pgfplotstableread[col sep=comma]{./input-files/lsrv_values.csv}\lsrvvals % LSRV basic info
+\pgfplotstableread[col sep=comma]{./input-files/canopy_clearance.csv}\canclear % canopy clearance settings
+\pgfplotstableread[col sep=comma]{./input-files/losses.csv}\lossesutility % utility t&d losses
+\pgfplotstableread[col sep=semicolon]{./input-files/parcel_landuse_load_application_mapping_copy.csv}\landuseappmap % mapping land use types from CoreLogics to applciations
+
+\definecolor{Gray}{gray}{0.9} % for alternating rows of color
+
+
+% ------------------------------------------------------------ /
+% switch setting for hiding images and tables
+% ------------------------------------------------------------ /
+\newsavebox{\figsavebox}% Box to capture figure content
+
+\newif\ifhidefigures % Conditional to hide figures or keep them in the document
+
+\NewEnviron{conditionalfigure}[1][ht]{%
+  \ifhidefigures
+    % Hide this figure
+    \let\oldlabel\label
+    \renewcommand{\label}[1]{\gdef\labelname{##1}}% Store label name
+    \renewcommand{\caption}[1]{##1}% Make \caption just print its argument
+    \begin{lrbox}{\figsavebox}
+      \BODY % Capture enture figure body
+    \end{lrbox}
+    \refstepcounter{figure}\oldlabel{\labelname}% Step counter with reference and mark with label
+	\vspace*{10mm}
+	\centerline{\large\textsc{Figure supressed here}}
+	\vspace*{10mm}
+  \else
+    % Traditional figure environment
+    \begin{figure}[#1]
+      \BODY
+    \end{figure}
+  \fi
+}
+
+\newsavebox{\tabsavebox}% Box to capture figure content
+
+\newif\ifhidetables % Conditional to hide figures or keep them in the document
+
+\NewEnviron{conditionaltable}[1][ht]{%
+  \ifhidetables
+    % Hide this figure
+    \let\oldlabel\label
+    \renewcommand{\label}[1]{\gdef\labelname{##1}}% Store label name
+    \renewcommand{\caption}[1]{##1}% Make \caption just print its argument
+    \begin{lrbox}{\tabsavebox}
+      \BODY % Capture enture figure body
+    \end{lrbox}
+    \refstepcounter{figure}\oldlabel{\labelname}% Step counter with reference and mark with label
+	\vspace*{10mm}
+	\centerline{\large\textsc{Table supressed here}}
+	\vspace*{10mm}
+  \else
+    % Traditional figure environment
+    \begin{figure}[#1]
+      \BODY
+    \end{figure}
+  \fi
+}
+
+% ------------------------------------------------------------ /
+% captions
+% ------------------------------------------------------------ /
+\captionsetup{compatibility=false} % gets rid of an annoying warning message
+
+% ------------------------------------------------------------ /
+% list (bullets) global settings for document
+% ------------------------------------------------------------ /
+\setlist[itemize,1]{leftmargin=\dimexpr 26pt}
